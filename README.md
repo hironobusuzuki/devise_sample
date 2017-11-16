@@ -1,4 +1,4 @@
-'''
+```
 $ rbenv local 2.4.1
 $ rbenv exec bundle init
 $ vi Gemfile
@@ -25,5 +25,6 @@ $ rbenv exec bundle exec rails db:create
 $ rbenv exec bundle exec rails db:migrate
 $ rbenv exec bundle exec rails s
 
+Read this if you customize devise routing
 http://www.rubydoc.info/github/plataformatec/devise/master/ActionDispatch/Routing/Mapper%3Adevise_for
-'''
+```
