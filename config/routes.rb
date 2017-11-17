@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   #devise_for :clients
   devise_for :clients, path: :users
-  devise_for :admins
+  devise_for :admins, controllers: {registrations: 'admins/registrations'}
 
   resources :clients
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
